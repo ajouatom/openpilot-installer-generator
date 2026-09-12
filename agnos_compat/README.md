@@ -15,12 +15,12 @@ upstream binary or remove the SHA-256 check.
 Enter this URL in custom software setup for `carrot-wip`:
 
 ```text
-https://github.com/ajouatom/openpilot-installer-generator/releases/download/agnos-19.6.3-compat-20260912/carrot-wip
+https://carrot.ajouatom.workers.dev
 ```
 
-The [release](https://github.com/ajouatom/openpilot-installer-generator/releases/tag/agnos-19.6.3-compat-20260912)
-also includes `carrot-cinque_v2`, `carrot-bmr_v6`, and `carrot-cinque-terre`.
-Replace the final branch name in the URL to select one of those assets.
+Append `/cinque_v2`, `/bmr_v6`, or `/cinque-terre` for the other supported
+branches. The [GitHub release](https://github.com/ajouatom/openpilot-installer-generator/releases/tag/agnos-19.6.3-compat-20260912)
+remains available as an alternative download source with checksums.
 The independently operated `i.carrotpilot.app` service is unchanged.
 
 ## Provenance

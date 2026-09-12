@@ -4,6 +4,10 @@ A PHP webpage that uses string replacements to generate a binary on the fly that
 For the pinned AGNOS `19.6.3-carrot` compatibility installer and its reproducible
 Carrot branch builder, see [agnos_compat](agnos_compat/README.md).
 
+Carrot installation URL: **https://carrot.ajouatom.workers.dev** (`carrot-wip`).
+Use **https://carrot.ajouatom.workers.dev/cinque_v2** for `carrot-cinque_v2`.
+See [all short URLs and deployment instructions](cloudflare/README.md).
+
 ## What is this?
 Previously to install a custom fork from scratch, you would enter `https://openpilot.comma.ai` in the Custom Software prompt on your device, then `ssh` in later and clone the actual fork you want. Now you can enter a URL during set up to install any openpilot fork available on GitHub without first cloning stock.
 
