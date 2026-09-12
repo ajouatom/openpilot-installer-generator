@@ -10,6 +10,19 @@ reserved repository and branch string slots are replaced; executable code,
 fonts, and ELF offsets remain unchanged. Do not substitute an untested
 upstream binary or remove the SHA-256 check.
 
+## Published installation URL
+
+Enter this URL in custom software setup for `carrot-wip`:
+
+```text
+https://github.com/ajouatom/openpilot-installer-generator/releases/download/agnos-19.6.3-compat-20260912/carrot-wip
+```
+
+The [release](https://github.com/ajouatom/openpilot-installer-generator/releases/tag/agnos-19.6.3-compat-20260912)
+also includes `carrot-cinque_v2`, `carrot-bmr_v6`, and `carrot-cinque-terre`.
+Replace the final branch name in the URL to select one of those assets.
+The independently operated `i.carrotpilot.app` service is unchanged.
+
 ## Provenance
 
 - Source: `/usr/comma/installer` from AGNOS `19.6.3-carrot`.
