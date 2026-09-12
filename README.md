@@ -1,6 +1,9 @@
 # openpilot-installer-generator
 A PHP webpage that uses string replacements to generate a binary on the fly that you can enter at setup in NEOS.
 
+For the pinned AGNOS `19.6.3-carrot` compatibility installer and its reproducible
+Carrot branch builder, see [agnos_compat](agnos_compat/README.md).
+
 ## What is this?
 Previously to install a custom fork from scratch, you would enter `https://openpilot.comma.ai` in the Custom Software prompt on your device, then `ssh` in later and clone the actual fork you want. Now you can enter a URL during set up to install any openpilot fork available on GitHub without first cloning stock.
 
